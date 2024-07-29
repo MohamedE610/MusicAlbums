@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Top Music Albums</string>
+    <string name="lbl_general_error_msg">Oops!! something went wrong</string>
+    <string name="lbl_no_connection_error_msg">No internet connection</string>
+    <string name="lbl_retry">Retry</string>
+    <string name="lbl_go_to_itunes_store">Go to iTunes Store</string>
+    <string name="lbl_can_not_perform_this_action">Can\'t perform this action</string>
+</resources>
