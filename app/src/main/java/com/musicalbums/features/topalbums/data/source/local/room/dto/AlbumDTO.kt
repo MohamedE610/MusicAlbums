@@ -1,4 +1,4 @@
-package com.musicalbums.features.topalbums.data.source.local.dto
+package com.musicalbums.features.topalbums.data.source.local.room.dto
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

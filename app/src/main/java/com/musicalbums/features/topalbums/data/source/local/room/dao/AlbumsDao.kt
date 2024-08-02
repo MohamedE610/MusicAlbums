@@ -1,11 +1,11 @@
-package com.musicalbums.features.topalbums.data.source.local.dao
+package com.musicalbums.features.topalbums.data.source.local.room.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.musicalbums.core.room.constant.RoomConstants
-import com.musicalbums.features.topalbums.data.source.local.dto.AlbumDTO
+import com.musicalbums.features.topalbums.data.source.local.room.dto.AlbumDTO
 import com.musicalbums.features.topalbums.domain.entity.Album
 
 @Dao

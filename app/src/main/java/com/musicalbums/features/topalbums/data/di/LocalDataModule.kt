@@ -1,7 +1,7 @@
 package com.musicalbums.features.topalbums.data.di
 
 import com.musicalbums.core.room.database.AlbumsDatabase
-import com.musicalbums.features.topalbums.data.source.local.dao.AlbumsDao
+import com.musicalbums.features.topalbums.data.source.local.room.dao.AlbumsDao
 import com.musicalbums.features.topalbums.data.source.remote.MusicAlbumsService
 import dagger.Module
 import dagger.Provides

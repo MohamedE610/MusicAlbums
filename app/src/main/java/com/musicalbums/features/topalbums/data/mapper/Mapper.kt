@@ -1,6 +1,6 @@
 package com.musicalbums.features.topalbums.data.mapper
 
-import com.musicalbums.features.topalbums.data.source.local.dto.AlbumDTO
+import com.musicalbums.features.topalbums.data.source.local.room.dto.AlbumDTO
 import com.musicalbums.features.topalbums.data.source.remote.response.AlbumResponse
 import com.musicalbums.features.topalbums.data.source.remote.response.GenreResponse
 import com.musicalbums.features.topalbums.domain.entity.Album

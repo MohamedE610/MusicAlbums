@@ -6,7 +6,7 @@ import com.musicalbums.core.extension.emitFlow
 import com.musicalbums.core.extension.onSuccess
 import com.musicalbums.features.topalbums.data.mapper.toDTO
 import com.musicalbums.features.topalbums.data.mapper.toDomain
-import com.musicalbums.features.topalbums.data.source.local.dao.AlbumsDao
+import com.musicalbums.features.topalbums.data.source.local.room.dao.AlbumsDao
 import com.musicalbums.features.topalbums.data.source.remote.MusicAlbumsService
 import com.musicalbums.features.topalbums.domain.entity.Album
 import com.musicalbums.features.topalbums.domain.repository.AlbumsRepository

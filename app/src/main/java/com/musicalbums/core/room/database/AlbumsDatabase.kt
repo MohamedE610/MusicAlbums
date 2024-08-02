@@ -7,8 +7,8 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.musicalbums.core.room.constant.RoomConstants
 import com.musicalbums.core.room.converter.AlbumGenreConverter
-import com.musicalbums.features.topalbums.data.source.local.dao.AlbumsDao
-import com.musicalbums.features.topalbums.data.source.local.dto.AlbumDTO
+import com.musicalbums.features.topalbums.data.source.local.room.dao.AlbumsDao
+import com.musicalbums.features.topalbums.data.source.local.room.dto.AlbumDTO
 
 @Database(
     entities = [AlbumDTO::class],
