@@ -20,5 +20,5 @@ interface AlbumsDao {
     suspend fun deleteAll()
 
     @Query("SELECT * FROM ${RoomConstants.TABLE_NAME} WHERE id=:id")
-    suspend fun getAlbum(id: String): Album?
+    suspend fun getAlbum(id: String): AlbumDTO?
 }
